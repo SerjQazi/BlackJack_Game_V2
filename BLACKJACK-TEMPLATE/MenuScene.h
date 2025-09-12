@@ -26,5 +26,6 @@ public:
 	void onButtonPressed(const UserEvent& e);
 
 private:
-
+	Button* playBtn;
+	Button* quitBtn;
 };
