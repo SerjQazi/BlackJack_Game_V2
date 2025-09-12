@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CONFIG">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GAME">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ENGINE">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GAME\ASSETS">
+      <UniqueIdentifier>{85527032-dd50-48c5-8bfe-a2564681721f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\MAIN">
+      <UniqueIdentifier>{fc09b911-2bf4-42b3-ad34-c148e46500cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CORE">
+      <UniqueIdentifier>{5ab8ec8b-3380-47e3-a4b9-93a8079fc43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\GAMELOOPS">
+      <UniqueIdentifier>{80429629-7585-454c-87b5-33f278598970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\GAMEOBJECTS">
+      <UniqueIdentifier>{1868eb89-c4fc-463e-9ea7-4b9b563edf54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\INPUT">
+      <UniqueIdentifier>{a36373c4-0fbf-423d-bbb0-3e2d77766b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\LOGGER">
+      <UniqueIdentifier>{2d1a10bc-bb83-4671-b641-a8c3c3f94140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS">
+      <UniqueIdentifier>{6a7d5f38-a9a6-4024-a168-b70f57d3be59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\OPENGL">
+      <UniqueIdentifier>{949f96a3-314f-406d-b2f1-cfcd179e5573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\PARSERS">
+      <UniqueIdentifier>{a13fbcd9-c481-49b1-bc20-34d81ac14801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\PHYSICS">
+      <UniqueIdentifier>{3a91b8eb-2824-463f-be9f-e42f1bc13f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\RENDERER">
+      <UniqueIdentifier>{32e37fdc-3260-47e4-b7fa-a3df6e26553a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\SHADERS">
+      <UniqueIdentifier>{887e5172-0aef-4892-8ee1-a3f05185c9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\SCENES">
+      <UniqueIdentifier>{6fcc58f4-ea62-4484-9b63-c62aa8552df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\DATASTRUCTURES">
+      <UniqueIdentifier>{b8292457-5391-46d2-90a1-f51964d449bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>GAME\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>GAME\MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>ENGINE\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableGameloop.cpp">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameloop.cpp">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClCompile>
+    <ClCompile Include="HybridGameloop.cpp">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedGameloop.cpp">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameGameloop.cpp">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="SFX.cpp">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEvent.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboEvent.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerEvent.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDispatcher.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="EventRegistry.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardEvent.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseEvent.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="UserEvent.cpp">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleLogger.cpp">
+      <Filter>ENGINE\LOGGER</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLogger.cpp">
+      <Filter>ENGINE\LOGGER</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationManager.cpp">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerManager.cpp">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultRenderer.cpp">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXRenderer.cpp">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLRenderer.cpp">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererFactory.cpp">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLShader.cpp">
+      <Filter>ENGINE\SHADERS</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicBody.cpp">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicSprite.cpp">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderDebug.cpp">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticBody.cpp">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticSprite.cpp">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLBuffer.cpp">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLDynamicSprite.cpp">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLImage.cpp">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLQuad.cpp">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLSprite.cpp">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldBoundary.cpp">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteConfiguration.cpp">
+      <Filter>ENGINE\PARSERS</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONInterpreter.cpp">
+      <Filter>ENGINE\PARSERS</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConfiguration.cpp">
+      <Filter>ENGINE\PARSERS</Filter>
+    </ClCompile>
+    <ClCompile Include="Bank.cpp">
+      <Filter>GAME\ASSETS</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>GAME\ASSETS</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>GAME\ASSETS</Filter>
+    </ClCompile>
+    <ClCompile Include="Chip.cpp">
+      <Filter>GAME\ASSETS</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>GAME\ASSETS</Filter>
+    </ClCompile>
+    <ClCompile Include="Hand.cpp">
+      <Filter>GAME\ASSETS</Filter>
+    </ClCompile>
+    <ClCompile Include="Wallet.cpp">
+      <Filter>GAME\ASSETS</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>GAME\SCENES</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelScene.cpp">
+      <Filter>GAME\SCENES</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>GAME\MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>ENGINE\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableGameloop.h">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameloop.h">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClInclude>
+    <ClInclude Include="HybridGameloop.h">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedGameloop.h">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameGameLoop.h">
+      <Filter>ENGINE\GAMELOOPS</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="SFX.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEvent.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboEvent.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerEvent.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="EventRegistry.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardEvent.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="UserEvent.h">
+      <Filter>ENGINE\INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleLogger.h">
+      <Filter>ENGINE\LOGGER</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLogger.h">
+      <Filter>ENGINE\LOGGER</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>ENGINE\LOGGER</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationManager.h">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerManager.h">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>ENGINE\MANAGERS</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultRenderer.h">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXRenderer.h">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLRenderer.h">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererFactory.h">
+      <Filter>ENGINE\RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLShader.h">
+      <Filter>ENGINE\SHADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticSprite.h">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicBody.h">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicSprite.h">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsGameObject.h">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderDebug.h">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticBody.h">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLBuffer.h">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLDynamicSprite.h">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLImage.h">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLQuad.h">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLSprite.h">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLVertex.h">
+      <Filter>ENGINE\OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldBoundary.h">
+      <Filter>ENGINE\PHYSICS</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteConfiguration.h">
+      <Filter>ENGINE\PARSERS</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONInterpreter.h">
+      <Filter>ENGINE\PARSERS</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfiguration.h">
+      <Filter>ENGINE\PARSERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>ENGINE\PARSERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Bank.h">
+      <Filter>GAME\ASSETS</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>GAME\ASSETS</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>GAME\ASSETS</Filter>
+    </ClInclude>
+    <ClInclude Include="Chip.h">
+      <Filter>GAME\ASSETS</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>GAME\ASSETS</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>GAME\ASSETS</Filter>
+    </ClInclude>
+    <ClInclude Include="Wallet.h">
+      <Filter>GAME\ASSETS</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>GAME\SCENES</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelScene.h">
+      <Filter>GAME\SCENES</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphAL.h">
+      <Filter>ENGINE\DATASTRUCTURES</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphAM.h">
+      <Filter>ENGINE\DATASTRUCTURES</Filter>
+    </ClInclude>
+    <ClInclude Include="KDTree.h">
+      <Filter>ENGINE\DATASTRUCTURES</Filter>
+    </ClInclude>
+    <ClInclude Include="SList.h">
+      <Filter>ENGINE\DATASTRUCTURES</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>ENGINE\GAMEOBJECTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>ENGINE\DATASTRUCTURES</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>ENGINE\DATASTRUCTURES</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\config.json">
+      <Filter>CONFIG</Filter>
+    </None>
+  </ItemGroup>
+</Project>

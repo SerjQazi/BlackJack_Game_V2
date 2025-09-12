@@ -1,0 +1,21 @@
+{
+  "game": {
+    "settings": {
+      "title": "BLACKJACK",
+      "fullscreen": false,
+      "zoom": 1.0,
+      "renderer": "direct3d",
+      "gameloop": "hybrid",
+      "x": 0.0,
+      "y": 30.0,
+      "resolution": {
+        "width": 1224,
+        "height": 768
+      },
+      "world": {
+        "width": 1224,
+        "height": 768
+      }
+    }
+  }
+}
