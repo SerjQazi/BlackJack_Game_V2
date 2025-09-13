@@ -8,7 +8,7 @@ class Game
 public:
 	~Game();
 
-	static Game* getInstance(const std::string& filename);
+	static Game* getInstance(const std::string& filename = "");
 	static void removeInstance();
 
 	static void start();
